@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title> Form Elements Copy | JS </title>
+</head>
+<body>
+
+  <div class="btncont">
+    <input type="button" value="View" id="view" onclick="view()" class="btn">
+    <input type="button" value="Hide" id="hide" onclick="hide()" class="btn">
+  </div>
+
+    <div id="old" class="container">
+        <form action="" id="one">
+            <input type="text" name="" id="firstName" placeholder="Enter your name" class="form_one">
+            <input type="text" name="" id="midName" placeholder="Enter middle name"  class="form_one">
+            <input type="text" name="" id="lastName" placeholder="Enter last name" class="form_one">
+            <input type="date" name="" id="myDate" class="form_one">
+            <input type="button" value="Submit" class="btn1">
+            <input type="button" value="Preview" onclick="preview()"  class="btn1">
+        </form> 
+
+        <span id="name" class="new spn_one"></span> 
+        <span id="myName"  class="new"></span>
+
+        <span id="newmidName" class="new spn_one"></span> 
+        <span id="middleName" class="new"></span>
+
+        <span id="newlastname" class="new spn_one"></span> 
+        <span id="mylastName" class="new"></span>
+
+        <span id="dob" class="new spn_one"></span> 
+        <span id="mydob" class="new"></span>
+
+     </div>
+
+</body>
+<script src="app.js"></script>
+</html>
